@@ -4,14 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-    <link rel="prev" href=".." />
-
-    <link rel="next" href="../Screeners/" />
+    <link rel="prev" href="../JLabs%20Metrics/" />
 
     <link rel="icon" href="../assets/images/favicon.png" />
     <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.12" />
 
-    <title>JLabs Metrics - Documentation</title>
+    <title>Screeners - Documentation</title>
 
     <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css" />
 
@@ -70,7 +68,7 @@
     />
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      <a href="#jlabs-metrics" class="md-skip"> Skip to content </a>
+      <a href="#understanding-colors" class="md-skip"> Skip to content </a>
     </div>
     <div data-md-component="announce"></div>
 
@@ -90,20 +88,20 @@
           <img src="../assets/logo.svg" alt="logo" />
         </a>
         <!-- <div class="md-grid">
-        <ul class="md-tabs__list">
-          <li class="md-tabs__item">
-            <a href=".." class="md-tabs__link"> Getting Started </a>
-          </li>
+      <ul class="md-tabs__list">
+        <li class="md-tabs__item">
+          <a href=".." class="md-tabs__link"> Getting Started </a>
+        </li>
 
-          <li class="md-tabs__item md-tabs__item--active">
-            <a href="./" class="md-tabs__link"> JLabs Metrics </a>
-          </li>
+        <li class="md-tabs__item md-tabs__item--active">
+          <a href="./" class="md-tabs__link"> JLabs Metrics </a>
+        </li>
 
-          <li class="md-tabs__item">
-            <a href="../Screeners/" class="md-tabs__link"> Screeners </a>
-          </li>
-        </ul>
-      </div> -->
+        <li class="md-tabs__item">
+          <a href="../Screeners/" class="md-tabs__link"> Screeners </a>
+        </li>
+      </ul>
+    </div> -->
 
         <label class="md-header__button md-icon" for="__drawer">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -219,16 +217,12 @@
                     </a>
                     Documentation
                   </label>
-
                   <ul class="md-nav__list" data-md-scrollfix>
                     <li class="md-nav__item md-nav__item--active">
                       <input class="md-nav__toggle md-toggle" type="checkbox" />
 
                       <a href="/" class="md-header__button header__button">
-                        <span
-                          class="md-ellipsis md-nav__button md-logo"
-                          style="font-weight: 900"
-                        >
+                        <span class="md-ellipsis" style="font-weight: 900">
                           Getting Started</span
                         >
                       </a>
@@ -323,31 +317,13 @@
                     </li>
 
                     <li class="md-nav__item md-nav__item--active">
-                      <input
-                        class="md-nav__toggle md-toggle"
-                        type="checkbox"
-                        id="__toc"
-                      />
-
-                      <label
-                        class="md-nav__link md-nav__link--active"
-                        for="__toc"
-                      >
-                        <span
-                          class="md-ellipsis md-nav__button md-logo"
-                          style="font-weight: 900"
-                        >
-                          JLabs Metrics
-                        </span>
-
-                        <span class="md-nav__icon md-icon"></span>
-                      </label>
+                      <input class="md-nav__toggle md-toggle" type="checkbox" />
                       <a
                         href="/JLabs%20Metrics/"
-                        class="md-header__button header__button md-logo"
+                        class="md-header__button header__button"
                       >
                         <span class="md-ellipsis" style="font-weight: 900">
-                          JLabs Metrics >
+                          JLabs Metrics
                         </span>
                       </a>
                       <nav
@@ -455,12 +431,24 @@
                         type="checkbox"
                         id="__toc"
                       />
-                      <a
-                        href="/Screeners/"
-                        class="md-header__button header__button"
+
+                      <label
+                        class="md-nav__link md-nav__link--active"
+                        for="__toc"
                       >
                         <span class="md-ellipsis" style="font-weight: 900">
                           Screeners
+                        </span>
+
+                        <span class="md-nav__icon md-icon"></span>
+                      </label>
+
+                      <a
+                        href="/Screeners/"
+                        class="md-header__button header__button md-logo"
+                      >
+                        <span class="md-ellipsis" style="font-weight: 900">
+                          Screeners >
                         </span>
                       </a>
                       <nav
@@ -497,150 +485,37 @@
 
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
-              <p><link rel="stylesheet" href="/stylesheets/extra.css" /></p>
-              <h1 id="jlabs-metrics">JLabs Metrics</h1>
-              <h2 id="liquidations">Liquidations</h2>
-              <p><strong>Available Symbols</strong></p>
+              <h1>Screeners</h1>
+
+              <h2 id="understanding-colors">Understanding Colors</h2>
               <p>
-                <code
-                  >BTCUSDT,ETHUSDT,MATICUSDT,LINKUSDT,BNBUSDT,XRPUSDT,LDOUSDT,ADAUSDT,DOGEUSDT,SOLUSDT,LTCUSDT,DOTUSDT,AVAXUSDT,UNIUSDT,ATOMUSDT,FILUSDT,APTUSDT,ARBUSDT,VETUSDT,APEUSDT,AAVEUSDT,OPUSDT,FTMUSDT,THETAUSDT,AXSUSDT,CRVUSDT,MKRUSDT,GMXUSDT</code
-                >
+                We have configured specialised colors for different states in
+                the screener. You can learn about the different use cases here.
               </p>
-              <p><strong>Timeframe</strong></p>
-              <p>Hourly chart</p>
-              <p><strong>Description</strong></p>
-              <p>
-                This metric provides long and short liquidation levels for 50x,
-                100x leverage. It is a metric for PERPs although you can see the
-                same metric if you select BTCUSDT / BTCUSDT_PERP.
-              </p>
-              <h2 id="oi-expiry">OI Expiry</h2>
-              <p><strong>Available Symbols</strong></p>
-              <p><code>BTCUSDT, ETHUSDT</code></p>
-              <p><strong>Timeframe</strong></p>
-              <p>Hourly chart</p>
-              <p><strong>Description</strong></p>
-              <p>
-                This metric provides hourly OI for different options expiry.
-                Coincall and Deribit are supported for now. Select daily,
-                weekly, monthly and quarterly to see stacked OI chart.
-              </p>
-              <h2 id="slippage">Slippage</h2>
-              <p><strong>Available Symbols</strong></p>
-              <p>
-                <code
-                  >BTCUSDT,ETHUSDT,MATICUSDT,LINKUSDT,BNBUSDT,XRPUSDT,LDOUSDT,ADAUSDT,DOGEUSDT,SOLUSDT,LTCUSDT,DOTUSDT,AVAXUSDT,UNIUSDT,ATOMUSDT,FILUSDT,APTUSDT,ARBUSDT,VETUSDT,APEUSDT,AAVEUSDT,OPUSDT,FTMUSDT,THETAUSDT,AXSUSDT,CRVUSDT,MKRUSDT,GMXUSDT</code
-                >
-              </p>
-              <p><strong>Timeframe</strong></p>
-              <p>
-                Hourly chart (The metric is computed hourly and so depending on
-                your time zone you might find the metric not displayed for the
-                last (sometimes two) hour.)
-              </p>
-              <p><strong>Description</strong></p>
-              <p>
-                Slippage in trading refers to the difference between the
-                anticipated and actual execution price of a trade. It is most
-                common to be high in volatile markets and large trades.
-              </p>
-              <h2 id="price-equilibrium">Price Equilibrium</h2>
-              <p><strong>Available Symbols</strong></p>
-              <p>
-                <code
-                  >BTCUSDT,ETHUSDT,MATICUSDT,LINKUSDT,BNBUSDT,XRPUSDT,LDOUSDT,ADAUSDT,DOGEUSDT,SOLUSDT,LTCUSDT,DOTUSDT,AVAXUSDT,UNIUSDT,ATOMUSDT,FILUSDT,APTUSDT,ARBUSDT,VETUSDT,APEUSDT,AAVEUSDT,OPUSDT,FTMUSDT,THETAUSDT,AXSUSDT,CRVUSDT,MKRUSDT,GMXUSDT</code
-                >
-              </p>
-              <p>
-                You can find for both spot and perps. But the metric is actually
-                calculated for perps.
-              </p>
-              <p><strong>Timeframe</strong></p>
-              <p>
-                Hourly chart (The metric is computed hourly and so depending on
-                your time zone you might find the metric not displayed for the
-                last (sometimes two) hour.)
-              </p>
-              <p><strong>Description</strong></p>
-              <p>
-                Price Equilibrium is observed when high trade volumes don't
-                impact the price, indicating an opposing market force absorbing
-                these trades.
-              </p>
-              <h2 id="dxy-risk">DXY Risk</h2>
-              <p><strong>Available Symbols</strong></p>
-              <p><code>General Metric, Independent of symbols.</code></p>
-              <p>You can get it for any symbol. Both in spot and perps</p>
-              <p><strong>Timeframe</strong></p>
-              <p>Daily chart.</p>
-              <p><strong>Description</strong></p>
-              <p>
-                DXY Risk is a metric to get a risk score BTC and ETH to predict
-                price action depending on DXY.
-              </p>
-              <h2 id="price-strength">Price Strength</h2>
-              <p><strong>Available Symbols</strong></p>
-              <p>
-                <code
-                  >BTCUSDT,ETHUSDT,MATICUSDT,LINKUSDT,BNBUSDT,XRPUSDT,LDOUSDT,ADAUSDT,DOGEUSDT,SOLUSDT,LTCUSDT,DOTUSDT,AVAXUSDT,UNIUSDT,ATOMUSDT,FILUSDT,APTUSDT,ARBUSDT,VETUSDT,APEUSDT,AAVEUSDT,OPUSDT,FTMUSDT,THETAUSDT,AXSUSDT,CRVUSDT,MKRUSDT,GMXUSDT</code
-                >
-              </p>
-              <p>
-                You can find for both spot and perps. But the metric is actually
-                calculated for perps.
-              </p>
-              <p><strong>Timeframe</strong></p>
-              <p>Daily chart.</p>
-              <p><strong>Description</strong></p>
-              <p>
-                Price Strength metric is to score the symbols in a scale of 10
-                where minimum denotes very weak to maximum denoting extremely
-                strong.
-              </p>
-              <h2 id="cari">CARI</h2>
-              <p><strong>Available Symbols</strong></p>
-              <p><code>BTCUSDT,ETHUSDT</code></p>
-              <p>You can find for both spot and perps.</p>
-              <p><strong>Timeframe</strong></p>
-              <p>Daily chart.</p>
-              <p><strong>Description</strong></p>
-              <p>CARI is a metric to denote price reversion signals.</p>
-              <h2 id="rosi">Rosi</h2>
-              <p><strong>Available Symbols</strong></p>
-              <p>
-                <code
-                  >BTCUSDT,ETHUSDT,MATICUSDT,LINKUSDT,BNBUSDT,XRPUSDT,LDOUSDT,ADAUSDT,DOGEUSDT,SOLUSDT,LTCUSDT,DOTUSDT,AVAXUSDT,UNIUSDT,ATOMUSDT,FILUSDT,APTUSDT,ARBUSDT,VETUSDT,APEUSDT,AAVEUSDT,OPUSDT,FTMUSDT,THETAUSDT,AXSUSDT,CRVUSDT,MKRUSDT,GMXUSDT</code
-                >
-              </p>
-              <p>
-                You can find for both spot and perps. But the metric is actually
-                calculated for perps.
-              </p>
-              <p><strong>Timeframe</strong></p>
-              <p>4 Hour chart.</p>
-              <p><strong>Description</strong></p>
-              <p>Rosi is metric that gives you a signal to enter the Market.</p>
-              <h2 id="tvl">TVL</h2>
-              <p><strong>Available Symbols</strong></p>
-              <p>
-                <code
-                  >Currently available for the tokens that are locked into the 3
-                  protocols - AAVE, Compound and Makerdao</code
-                >
-              </p>
-              <p><strong>Timeframe</strong></p>
-              <p>
-                Daily chart. The metric is computed daily on data till the
-                previous day. So you will be seeing the metric only till the
-                previous day.
-              </p>
-              <p><strong>Description</strong></p>
-              <p>
-                Total value locked (TVL) is a metric used in the cryptocurrency
-                sector to determine the quantity of digital assets locked, or
-                staked, on a particular blockchain network via decentralized
-                finance (DeFi) platforms or decentralized applications (dApps).
-              </p>
+              <!-- 
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files. -->
+
+              <ul>
+                <li>
+                  <code>dark-red</code> - Current price
+                  <code>lower than last two monday's</code> price.
+                </li>
+                <li>
+                  <code>light-red</code> - Current price only
+                  <code>lower than last monday's</code> price.
+                </li>
+                <li>
+                  <code>dark-green</code> - Current price
+                  <code>higher than last two monday's</code> price
+                </li>
+                <li>
+                  <code>light-green</code> - Current price only
+                  <code>higher than last monday's</code> price
+                </li>
+              </ul>
             </article>
           </div>
 
