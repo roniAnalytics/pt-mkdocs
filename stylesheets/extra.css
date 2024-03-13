@@ -1,26 +1,25 @@
-
 :root {
   --md-primary-fg-color: #251b47;
   --md-accent-fg-color: #0b18a2;
 }
 
-.md-ellipsis{
+.md-ellipsis {
   color: #251b47;
 }
 
-.md-search__input{
+.md-search__input {
   border: 1px solid rgba(121, 121, 121, 0.705);
   border-radius: 6px;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src:url('Alliance No.2 Regular.otf') ;
+  src: url("Alliance No.2 Regular.otf");
 }
 
 @font-face {
   font-family: "heading2";
-  src:url('AllianceNo.2-Light.otf') ;
+  src: url("AllianceNo.2-Light.otf");
 }
 
 .md-typeset h1 {
@@ -33,7 +32,35 @@
   font-family: "heading2";
 } */
 
-.md-typeset a{
+.md-typeset a {
   color: #7a7ce5;
 }
 
+a:hover {
+  opacity: 0.75 !important;
+}
+
+
+
+.md-header__button {
+  color: currentcolor;
+  cursor: pointer;
+  margin: none !important;
+  margin-bottom: -.5rem !important;
+  margin-left: -.5rem !important;
+  outline-color: var(--md-accent-fg-color);
+  padding: .4rem;
+  position: relative;
+  transition: opacity .25s;
+  vertical-align: none !important;
+}
+
+
+
+@media only screen and (max-width: 1220px) {
+  .header__button{
+    margin-bottom: .2rem !important;
+    margin-left: .2rem !important;
+    z-index: 0;
+  }
+}
