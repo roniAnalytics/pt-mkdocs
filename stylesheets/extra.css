@@ -1,0 +1,39 @@
+
+:root {
+  --md-primary-fg-color: #251b47;
+  --md-accent-fg-color: #0b18a2;
+}
+
+.md-ellipsis{
+  color: #251b47;
+}
+
+.md-search__input{
+  border: 1px solid rgba(121, 121, 121, 0.705);
+  border-radius: 6px;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:url('Alliance No.2 Regular.otf') ;
+}
+
+@font-face {
+  font-family: "heading2";
+  src:url('AllianceNo.2-Light.otf') ;
+}
+
+.md-typeset h1 {
+  color: #251b47;
+  font-family: "Montserrat";
+}
+
+/* .md-typeset h2 {
+  color: #251b47;
+  font-family: "heading2";
+} */
+
+.md-typeset a{
+  color: #7a7ce5;
+}
+
