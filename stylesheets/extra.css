@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins&display=swap');
+
 :root {
-  --md-primary-fg-color: #251b47;
+  --md-primary-fg-color: #111111;
   --md-accent-fg-color: #0b18a2;
 }
 
 .md-ellipsis {
-  color: #251b47;
+  color: #111111;
 }
 
 .md-search__input {
@@ -23,21 +25,28 @@
 }
 
 .md-typeset h1 {
-  color: #251b47;
-  font-family: "Montserrat";
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
-/* .md-typeset h2 {
-  color: #251b47;
-  font-family: "heading2";
-} */
+.md-typeset h2 {
+  color: #0f0f0f;
+  font-family: "Poppins";
+}
+
+.md-typeset h2 {
+  color: #2d2d2d;
+  font-family: "Poppins";
+}
 
 .md-typeset a {
-  color: #7a7ce5;
+  color: #1464FF;
 }
 
 a:hover {
-  opacity: 0.75 !important;
+  color:#0b3280;
 }
 
 
